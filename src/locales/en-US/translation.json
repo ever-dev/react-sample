@@ -1,0 +1,200 @@
+{
+  "label": {
+    "username": "Username",
+    "password": "Password",
+    "new_password": "New Password",
+    "confirm_password": "Confirm Password",
+    "current_password": "Current Password",
+    "contact_name": "Contact Name",
+    "name": "Name",
+    "email": "Email",
+    "phone": "Phone",
+    "search_placeholder": "Search...",
+    "org_name": "Organization Name",
+    "country": "Country",
+    "awb_number": "AWB Number",
+    "account_number": "Account Number",
+    "shipment_weight_limit": "Weight Limit"
+  },
+  "breadcrumb": {
+    "organizations": "Organizations",
+    "organization_airlines": "Airlines",
+    "organization_users": "Users"
+  },
+  "action": {
+    "update": "Update",
+    "retry": "Retry",
+    "create": "Create",
+    "cancel": "Cancel",
+    "delete": "Delete",
+    "back_to_login": "Back to login",
+    "selected": "selected",
+    "send_password_reset": "Send Password Reset Email",
+    "send_welcome": "Send Welcome Email",
+    "drag_and_drop": "Drag-and-drop file here, or click to select in folder",
+    "confirm_drop": "Drop file here..."
+  },
+  "alert": {
+    "general_error": "An error occurred.",
+    "server_error_header": "Something went wrong",
+    "server_error_subheader": "Please try again later",
+    "cannot_be_undone_warning": "Please be aware that this action cannot be undone."
+  },
+  "navbar": {
+    "settings": "Settings",
+    "organizations": "Organizations",
+    "log_out": "Log out"
+  },
+  "login": {
+    "header": "Login",
+    "submit_button": "Log in",
+    "forgot_password_link": "Forgot password?",
+    "alert": {
+      "incorrect_credentials": "Incorrect username or password.",
+      "password_updated": "Password was successfully updated!",
+      "account_locked": "Too many failed login attempts. Please reset your password or try again later."
+    }
+  },
+  "not_found": {
+    "header": "404",
+    "subheader": "Page not found"
+  },
+  "request_reset": {
+    "header": "Forgot your password?",
+    "subheader": "Please fill in your username and we will send you a password reset email",
+    "confirmation_header": "We've sent you an email with a link to reset your password",
+    "submit_button": "Reset password",
+    "resend_button": "Resend the email"
+  },
+  "reset_password": {
+    "header": "Reset your password",
+    "missing_requirement": "Missing requirement",
+    "passwords_must_match": "Passwords must match",
+    "submit_button": "Reset password",
+    "requirement": {
+      "char_length": "8 characters minimum",
+      "one_lowercase": "One lowercase character",
+      "one_uppercase": "One uppercase character",
+      "one_number": "One number",
+      "one_special": "One special character"
+    },
+    "alert": {
+      "password_breached": "This password was detected among a list of insecure passwords, please consider changing it or adding characters.",
+      "password_breached_learn_more": "Learn more"
+    }
+  },
+  "settings": {
+    "basic_information": "Basic Information",
+    "password_reset": "Password Reset",
+    "alert": {
+      "incorrect_credentials": "Incorrect password.",
+      "settings_updated": "Settings were successfully updated!",
+      "password_updated": "Password was successfully updated!",
+      "organization_deleted": "Organizations were successfully deleted!",
+      "organization_created": "Organization was successfully created!",
+      "organization_user_deleted": "Organization Users were successfully deleted!",
+      "organization_user_created": "Organization User was successfully created!",
+      "awb_number_deleted": "Air Waybills were successfully deleted!",
+      "awb_number_created": "Air Waybill was successfully created!"
+    }
+  },
+  "organizations": {
+    "create_organization": "Create Organization",
+    "no_organizations_header": "There are no organizations yet!",
+    "no_organizations_subheader": "Please add your first one to get started.",
+    "delete": {
+      "dialog": "Delete Organization?",
+      "dialog_plural": "Delete {{count}} Organizations?",
+      "confirm": "Yes, Delete Organization",
+      "confirm_plural": "Yes, Delete Organizations"
+    },
+    "headers": {
+      "name": "Name",
+      "profile": "Profile",
+      "contact": "Contact",
+      "email": "Email",
+      "phone": "Phone"
+    },
+    "profiles": {
+      "admin": "Admin",
+      "cartage": "Cartage",
+      "demo": "Demo",
+      "shipper": "Shipper",
+      "ratepartner": "Rate Partner"
+    },
+    "details_tabs": {
+      "details": "Details",
+      "profiles": "Profiles",
+      "users": "Users",
+      "airlines": "Airlines",
+      "contacts": "Contacts",
+      "cartage": "Cartage",
+      "alerts": "Alerts"
+    }
+  },
+  "users": {
+    "create_user": "Create User",
+    "no_users_header": "There are no users yet!",
+    "no_users_subheader": "Please add your first one to get started.",
+    "basic_information": "Basic Information",
+    "email_actions": "Email Actions",
+    "delete": {
+      "dialog": "Delete User?",
+      "dialog_plural": "Delete {{count}} Users?",
+      "confirm": "Yes, Delete User",
+      "confirm_plural": "Yes, Delete Users"
+    },
+    "headers": {
+      "username": "Username",
+      "contact_name": "Contact Name",
+      "email": "Email",
+      "phone": "Phone"
+    },
+    "alert": {
+      "request_reset_email_sent": "Reset password email was successfully sent!",
+      "welcome_email_sent": "Welcome email was successfully sent!"
+    }
+  },
+  "airlines": {
+    "airline": "Airline",
+    "account_number": "Account Number",
+    "awb_number_count": "AWB Number Count",
+    "no_airlines_header": "No airlines",
+    "no_airlines_subheader": "Please contact your admin to add airlines."
+  },
+  "air_waybills": {
+    "air_waybill_numbers": "AWB Numbers",
+    "low_count": "Low Count",
+    "upload_awbs": "Upload AWBs",
+    "create_awb": "Create AWB",
+    "no_available_awbs_header": "No available air waybill numbers",
+    "no_available_awbs_subheader": "Please add more to continue.",
+    "no_booked_awbs_header": "No booked air waybill numbers",
+    "create_awb_number": "Create AWB Number",
+    "headers": {
+      "airline_prefix": "Airline Prefix",
+      "available": "Available",
+      "booked": "Booked"
+    },
+    "delete": {
+      "dialog": "Delete Air Waybill?",
+      "dialog_plural": "Delete {{count}} Air Waybills?",
+      "confirm": "Yes, Delete Air Waybill",
+      "confirm_plural": "Yes, Delete Air Waybills"
+    }
+  },
+  "address": {
+    "address": "Address",
+    "address_line_1": "Address Line 1",
+    "address_line_2": "Address Line 2",
+    "city": "City",
+    "post_town": "Post Town",
+    "village_town": "Village/Town",
+    "locality": "Locality",
+    "state": "State",
+    "province": "Province",
+    "zip_code": "Zip Code",
+    "postal_code": "Postal Code",
+    "postcode": "Postcode"
+  }
+}
